@@ -1,8 +1,8 @@
 {
-  "name": "cml",
-  "displayName": "CML",
+  "name": "cmlc",
+  "displayName": "CMLC",
   "publisher": "Dervex",
-  "description": "GitHub max fully displayed Commit Message Length counter",
+  "description": "GitHub longest fully displayed Commit Message Length Counter",
   "license": "Apache-2.0",
   "version": "0.1.0",
   "icon": "images/logo.png",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/DervexDev/CML.git"
+    "url": "https://github.com/DervexDev/CMLC.git"
   },
   "categories": [
     "Other"
@@ -28,7 +28,7 @@
   "contributes": {
     "commands": [
       {
-        "command": "cml.count",
+        "command": "cmlc.count",
         "icon": "$(comment)",
         "title": "Hello World"
       }
@@ -36,7 +36,7 @@
     "menus": {
       "scm/title": [
         {
-          "command": "cml.count",
+          "command": "cmlc.count",
           "group": "navigation@10"
         }
       ]

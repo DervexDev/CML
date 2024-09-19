@@ -1,10 +1,8 @@
-<img align="right" width="200" src="images/logo.png"/>
+# CMLC
 
-# CML
+GitHub longest fully displayed Commit Message Length Counter for those who want to avoid this:
 
-GitHub max fully displayed Commit Message Length counter for those who want to avoid this:
-
-<img height="50"  src="images/example.png"/>
+<img src="images/example.png"/>
 
 ## Demo
 

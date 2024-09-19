@@ -5,7 +5,7 @@ const vscode = require("vscode")
  */
 function activate(context) {
   context.subscriptions.push(
-    vscode.commands.registerCommand("cml.count", function () {
+    vscode.commands.registerCommand("cmlc.count", function () {
       const repositories = vscode.extensions
         .getExtension("vscode.git")
         .exports.getAPI(1).repositories
