@@ -1,0 +1,40 @@
+{
+  "name": "cml",
+  "displayName": "CML",
+  "publisher": "Dervex",
+  "description": "GitHub max fully displayed Commit Message Length counter",
+  "license": "Apache-2.0",
+  "version": "0.1.0",
+  "icon": "images/logo.png",
+  "engines": {
+    "vscode": "^1.93.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "cml.count",
+        "icon": "$(comment)",
+        "title": "Hello World"
+      }
+    ],
+    "menus": {
+      "scm/title": [
+        {
+          "command": "cml.count",
+          "group": "navigation@10"
+        }
+      ]
+    }
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.93.0",
+    "@types/node": "16.x"
+  },
+  "prettier": {
+    "semi": false
+  }
+}
