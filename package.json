@@ -9,8 +9,20 @@
   "engines": {
     "vscode": "^1.93.0"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DervexDev/CML.git"
+  },
   "categories": [
     "Other"
+  ],
+  "keywords": [
+    "git",
+    "github",
+    "commit",
+    "message",
+    "length",
+    "counter"
   ],
   "main": "./extension.js",
   "contributes": {

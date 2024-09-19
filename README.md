@@ -1,4 +1,4 @@
-<img align="right" width="250" src="images/logo.png"/>
+<img align="right" width="200" src="images/logo.png"/>
 
 # CML
 
